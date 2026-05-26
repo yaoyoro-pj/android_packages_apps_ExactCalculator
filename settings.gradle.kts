@@ -8,10 +8,8 @@ pluginManagement {
         gradlePluginPortal()
         google()
         mavenCentral()
-        maven("https://raw.githubusercontent.com/lineage-next/gradle-generatebp/v1.21/.m2")
     }
 }
-
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -20,5 +18,4 @@ dependencyResolutionManagement {
         maven("https://raw.githubusercontent.com/lineage-next/crcalc/main/.m2")
     }
 }
-
 rootProject.name = "ExactCalculator"
