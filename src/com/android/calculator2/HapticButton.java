@@ -47,7 +47,7 @@ public class HapticButton extends MaterialButton {
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         super.onSizeChanged(w, h, oldw, oldh);
         if (getIcon() == null) {
-            setTextSize(TypedValue.COMPLEX_UNIT_PX, h * 0.4f);
+            setTextSize(TypedValue.COMPLEX_UNIT_PX, h * 0.36f);
         }
     }
 }
