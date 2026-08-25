@@ -1,27 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     SPDX-FileCopyrightText: 2026 Yaoyoro Project
+     SPDX-FileCopyrightText: The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
     android:width="108dp"
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-  <path
-      android:pathData="M42.47,34C43.46,34 44.26,34.8 44.26,35.78L44.26,41.65L50.16,41.65C51.14,41.65 51.94,42.44 51.94,43.42C51.94,44.41 51.14,45.2 50.16,45.2L44.26,45.2L44.26,51.07C44.26,52.05 43.46,52.85 42.47,52.85C41.49,52.85 40.69,52.05 40.69,51.07L40.69,45.2L34.79,45.2C33.8,45.2 33,44.41 33,43.42C33,42.44 33.8,41.65 34.79,41.65L40.69,41.65L40.69,35.78C40.69,34.8 41.49,34 42.47,34L42.47,34ZM75,43.42C75,44.41 74.2,45.2 73.21,45.2L57.84,45.2C56.86,45.2 56.06,44.41 56.06,43.42C56.06,42.44 56.86,41.65 57.84,41.65L73.21,41.65C74.2,41.65 75,42.44 75,43.42L75,43.42ZM49.13,59.66C49.83,60.36 49.83,61.48 49.13,62.18L44.96,66.33L49.13,70.48C49.83,71.17 49.83,72.3 49.13,72.99C48.44,73.69 47.3,73.69 46.61,72.99L42.44,68.84L38.27,72.99C37.57,73.69 36.44,73.69 35.74,72.99C35.04,72.3 35.04,71.17 35.74,70.48L39.91,66.33L35.74,62.18C35.04,61.48 35.04,60.36 35.74,59.66C36.44,58.97 37.57,58.97 38.27,59.66L42.44,63.81L46.61,59.66C47.3,58.97 48.44,58.97 49.13,59.66L49.13,59.66Z"
-      android:fillColor="#FF3B3B"
-      android:fillType="evenOdd"/>
-  <path
-      android:pathData="M72.31,72.6C71.61,73.3 70.48,73.3 69.78,72.6L58.91,61.79C58.21,61.09 58.21,59.97 58.91,59.27C59.61,58.58 60.74,58.58 61.44,59.27L72.31,70.09C73,70.78 73,71.91 72.31,72.6L72.31,72.6Z"
-      android:fillColor="#171717"
-      android:fillType="evenOdd"/>
-  <path
-      android:pathData="M72.33,59.44C73.03,60.14 73.03,61.26 72.33,61.96C71.63,62.65 70.5,62.65 69.8,61.96C69.11,61.26 69.11,60.14 69.8,59.44C70.5,58.75 71.63,58.75 72.33,59.44L72.33,59.44Z"
-      android:fillColor="#171717"
-      android:fillType="evenOdd"/>
-  <path
-      android:pathData="M61.5,72.74C62.2,72.04 62.2,70.92 61.5,70.22C60.8,69.53 59.67,69.53 58.97,70.22C58.27,70.92 58.27,72.04 58.97,72.74C59.67,73.43 60.8,73.43 61.5,72.74L61.5,72.74Z"
-      android:fillColor="#171717"
-      android:fillType="evenOdd"/>
+  <group>
+    <clip-path
+        android:pathData="M0,0h108v108h-108z"/>
+    <path
+        android:pathData="M41,48L47,48A1,1 0,0 1,48 49L48,55A1,1 0,0 1,47 56L41,56A1,1 0,0 1,40 55L40,49A1,1 0,0 1,41 48z"
+        android:fillColor="#ffffff"/>
+    <path
+        android:pathData="M41,58L47,58A1,1 0,0 1,48 59L48,65A1,1 0,0 1,47 66L41,66A1,1 0,0 1,40 65L40,59A1,1 0,0 1,41 58z"
+        android:fillColor="#ffffff"/>
+    <path
+        android:pathData="M40,69C40,68.448 40.448,68 41,68H47C47.552,68 48,68.448 48,69V75C48,75.552 47.552,76 47,76H42C40.895,76 40,75.105 40,74V69Z"
+        android:fillColor="#ffffff"/>
+    <path
+        android:pathData="M51,48L57,48A1,1 0,0 1,58 49L58,55A1,1 0,0 1,57 56L51,56A1,1 0,0 1,50 55L50,49A1,1 0,0 1,51 48z"
+        android:fillColor="#ffffff"/>
+    <path
+        android:pathData="M61,48L67,48A1,1 0,0 1,68 49L68,55A1,1 0,0 1,67 56L61,56A1,1 0,0 1,60 55L60,49A1,1 0,0 1,61 48z"
+        android:fillColor="#F93B4F"/>
+    <path
+        android:pathData="M51,58L57,58A1,1 0,0 1,58 59L58,65A1,1 0,0 1,57 66L51,66A1,1 0,0 1,50 65L50,59A1,1 0,0 1,51 58z"
+        android:fillColor="#ffffff"/>
+    <path
+        android:pathData="M61,58L67,58A1,1 0,0 1,68 59L68,65A1,1 0,0 1,67 66L61,66A1,1 0,0 1,60 65L60,59A1,1 0,0 1,61 58z"
+        android:fillColor="#F93B4F"/>
+    <path
+        android:pathData="M51,68L57,68A1,1 0,0 1,58 69L58,75A1,1 0,0 1,57 76L51,76A1,1 0,0 1,50 75L50,69A1,1 0,0 1,51 68z"
+        android:fillColor="#ffffff"/>
+    <path
+        android:pathData="M60,69C60,68.448 60.448,68 61,68H67C67.552,68 68,68.448 68,69V74C68,75.105 67.105,76 66,76H61C60.448,76 60,75.552 60,75V69Z"
+        android:fillColor="#F93B4F"/>
+    <path
+        android:pathData="M28.54,28.54m-72,0a72,72 0,1 1,144 0a72,72 0,1 1,-144 0"
+        android:fillAlpha="0.6">
+      <aapt:attr name="android:fillColor">
+        <gradient
+            android:gradientRadius="72"
+            android:centerX="28.54"
+            android:centerY="28.54"
+            android:type="radial">
+          <item android:offset="0" android:color="#19FFFFFF"/>
+          <item android:offset="1" android:color="#00FFFFFF"/>
+        </gradient>
+      </aapt:attr>
+    </path>
+  </group>
 </vector>
